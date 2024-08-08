@@ -11,7 +11,7 @@ impl Editor {
     }
 
     pub fn run(&self){
-        println!("I am alive \r");
+        println!("running \r");
         enable_raw_mode().unwrap();
         for b in io::stdin().bytes() {
             match b {
