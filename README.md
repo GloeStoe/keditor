@@ -1,0 +1,1 @@
+I am trying to write a very basic text editor in rust, just for the sake of learning some rust
